@@ -3,7 +3,10 @@
   padding: 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
  }
- 
+ body{
+  max-width: 1510px;
+  margin: auto;
+ }
  .osnova{
   display: grid;
   padding: 30px 0px;
