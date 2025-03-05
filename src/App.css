@@ -1,0 +1,70 @@
+ *{
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ 
+ .osnova{
+  display: grid;
+  padding: 30px 0px;
+  gap:30px;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+  grid-template-rows: 3;
+ }
+ .boxes{
+  width: 85%;
+  margin: auto;
+  padding: 50px 0px ;
+}
+
+ 
+.check{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.input{
+  width: 400px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid lightgray;
+}
+.ok{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.btn{
+  padding: 10px 20px;
+  border: 1px solid lightgray;
+  background-color: transparent;
+  border-radius: 10px;
+  font-size: 16px; 
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.btns{
+  padding: 10px 10px;
+  border: 1px solid lightgray;
+  background-color: transparent;
+  border-radius: 10px;
+  margin-right: 20px;
+  font-size: 16px; 
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.box{
+  padding: 30px 50px;
+   border: 2px solid lightgray;
+   display: flex;
+   flex-direction: column;
+   gap:20px;
+   border-radius: 10px;
+}
+
+@media (max-width:540px){
+  .osnova{
+    grid-template-columns: 1fr;
+  }
+}
