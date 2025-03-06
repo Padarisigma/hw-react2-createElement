@@ -70,4 +70,7 @@
   .osnova{
     grid-template-columns: 1fr;
   }
+  .input{
+    width: 250px;
+  }
 }
